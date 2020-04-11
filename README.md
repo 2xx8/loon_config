@@ -23,6 +23,8 @@
 话题标签|√|×
 App共存|√|√
 
+## 操作流程
+
 ### 需要用到的工具
 - 旧版iTunes
 - 外区AppleID
@@ -30,8 +32,6 @@ App共存|√|√
 - 可能会用到iTools、爱思助手之类工具（用于安装旧版APP）
 - [App版本ID在线查询工具](https://tools.lancely.tech/apple/app-search)
 - [iTunes历史版本下载](https://www.theiphonewiki.com/wiki/ITunes)
-
-## 操作流程
 
 ### 准备工作
 - 安装好旧版iTunes，有应用商店界面的，可使用12.3.2.35
