@@ -1,0 +1,10 @@
+hostname = *.115.com
+
+# [Script]
+# 使用 JS 脚本需要 Loon 版本大于 2.1.0，如果不是请删除 [Script] 所有内容直到 [MITM] 上方
+# 115离线
+# http-response ^http:\/\/115\.com\/lx.*$ script-path=https://raw.githubusercontent.com/ikanam/Surge-Scripts/master/115lx.js, requires-body=true, timeout=10
+# http-response ^https?:\/\/webapi\.115\.com\/user\/check_sign.*$ script-path=https://raw.githubusercontent.com/ikanam/Surge-Scripts/master/115lx.js, requires-body=true, timeout=10
+
+# 115app签到按钮修改为添加链接任务
+^http:\/\/115\.com\/\?ct=sign$ http://115.com/lx?taskdg=1 header

@@ -1,0 +1,6 @@
+#remote scripts
+hostname = *.115.com
+
+#115离线
+http-response ^http:\/\/115\.com\/lx.*$ script-path=https://raw.githubusercontent.com/ikanam/Surge-Scripts/master/115lx.js, requires-body=true, timeout=10
+http-response ^https?:\/\/webapi\.115\.com\/user\/check_sign.*$ script-path=https://raw.githubusercontent.com/ikanam/Surge-Scripts/master/115lx.js, requires-body=true, timeout=10
